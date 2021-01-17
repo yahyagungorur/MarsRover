@@ -1,0 +1,17 @@
+C:\Users\Yahya\source\repos\MarsRover\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Yahya\source\repos\MarsRover\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Yahya\source\repos\MarsRover\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Yahya\source\repos\MarsRover\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\Yahya\source\repos\MarsRover\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\Yahya\source\repos\MarsRover\UnitTest\bin\Debug\MarsRover.exe
+C:\Users\Yahya\source\repos\MarsRover\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Yahya\source\repos\MarsRover\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Yahya\source\repos\MarsRover\UnitTest\bin\Debug\MarsRover.pdb
+C:\Users\Yahya\source\repos\MarsRover\UnitTest\bin\Debug\MarsRover.exe.config
+C:\Users\Yahya\source\repos\MarsRover\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Yahya\source\repos\MarsRover\UnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Yahya\source\repos\MarsRover\UnitTest\obj\Debug\UnitTest.csprojAssemblyReference.cache
+C:\Users\Yahya\source\repos\MarsRover\UnitTest\obj\Debug\UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\Yahya\source\repos\MarsRover\UnitTest\obj\Debug\UnitTest.csproj.CopyComplete
+C:\Users\Yahya\source\repos\MarsRover\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\Yahya\source\repos\MarsRover\UnitTest\obj\Debug\UnitTest.pdb
