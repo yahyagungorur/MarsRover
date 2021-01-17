@@ -9,8 +9,8 @@ namespace MarsRover.Managers
 {
     public static class PlateauManager
     {
-        public static bool CanMove(Plateau plateau, Rover rover) {
-
+        public static bool CanMove(Plateau plateau, Rover rover)
+        {
             switch (rover.Heading)
             {
                 case Enum.DirectionEnum.N:
@@ -24,6 +24,11 @@ namespace MarsRover.Managers
                 default:
                     return false;
             }
+        }
+        public static bool CanLand(Plateau plateau, Position position)
+        {
+            return plateau.minHeight <= position.y && position.y <= plateau.MaxHeight &&
+                   plateau.maxWidth <= position.x && position.x <= plateau.maxWidth;
         }
     }
 }

@@ -19,13 +19,20 @@ namespace MarsRover
                 string[] positions = Console.ReadLine().Split(' ');
                 Position position = new Position(Convert.ToInt32(positions[0]), Convert.ToInt32(positions[1]));
                 DirectionEnum direction = (DirectionEnum)System.Enum.Parse(typeof(DirectionEnum), positions[2].ToUpper());
+                if (!PlateauManager.CanLand(plateau, position))
+                {
+                    Console.WriteLine("Can Not Land!..");
+                }
+                else {
+                    Console.Write("Enter a series of instructions (M-Move Forward L-Turn Left R-Turn Right): ");
+                    string instructions = Console.ReadLine();
 
-                Console.Write("Enter a series of instructions (M-Move Forward L-Turn Left R-Turn Right): ");
-                string instructions = Console.ReadLine();
+                    Rover rover = new Rover(position, direction);
+                    RoverManager.Execute(rover, plateau, instructions.ToUpper());
+                    Console.WriteLine(RoverManager.CurrentPosition(rover));
+                }
 
-                Rover rover = new Rover(position, direction);
-                RoverManager.Execute(rover, plateau, instructions.ToUpper());
-                Console.WriteLine(RoverManager.CurrentPosition(rover));
+
 
             }
             catch (Exception ex)
