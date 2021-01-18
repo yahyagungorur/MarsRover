@@ -31,9 +31,6 @@ namespace MarsRover
                     RoverManager.Execute(rover, plateau, instructions.ToUpper());
                     Console.WriteLine(RoverManager.CurrentPosition(rover));
                 }
-
-
-
             }
             catch (Exception ex)
             {

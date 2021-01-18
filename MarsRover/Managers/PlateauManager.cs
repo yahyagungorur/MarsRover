@@ -28,7 +28,7 @@ namespace MarsRover.Managers
         public static bool CanLand(Plateau plateau, Position position)
         {
             return plateau.minHeight <= position.y && position.y <= plateau.MaxHeight &&
-                   plateau.maxWidth <= position.x && position.x <= plateau.maxWidth;
+                   plateau.minWidth <= position.x && position.x <= plateau.maxWidth;
         }
     }
 }
