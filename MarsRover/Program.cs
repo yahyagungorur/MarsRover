@@ -13,7 +13,7 @@ namespace MarsRover
             {
                 Console.Write("Enter the upper-right coordinates of the plateau (Separate them with  a space): ");
                 string[] coordinates = Console.ReadLine().Split(' ');
-                Plateau plateau = new Plateau(Convert.ToInt32(coordinates[0]), Convert.ToInt32(coordinates[0]));
+                Plateau plateau = new Plateau(Convert.ToInt32(coordinates[0]), Convert.ToInt32(coordinates[1]));
 
                 Console.Write("Enter the rover's position and heading(N-North E-East S-South W-West) (Separate them with a space): ");
                 string[] positions = Console.ReadLine().Split(' ');
